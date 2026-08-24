@@ -8,7 +8,7 @@ The project integrates:
 - NUTS 1, NUTS 2 and NUTS 3 statistical regions
 - Local administrative level boundaries
 - Freguesia-level population data
-<br>
+
 
 ## Project Objectives
 
@@ -19,6 +19,7 @@ The project integrates:
 5. Performing spatial and attribute-level QA/QC. 
 6. Producing clean and deliverable GIS-ready Shapefile. 
 7. Generating professional maps for visualization and documentation. 
+
 
 ## Data Processing Workflow
 
@@ -37,6 +38,7 @@ The project integrates:
 13. Exported final deliverable GIS datasets
 14. Produced cartographic layouts and documentation
 
+
 ## Tools
 QGIS: Select features, Merge vector layers, Aggregate, Join, Symbology, Attribute table, Vector geometry, Check validity, QA/QC, Layout
 Microsoft Word: Documentation
@@ -49,7 +51,6 @@ Eurostat regional level NUTS datasets were obtained from official European geogr
 The datasets with geographic reference are listed below: 
 
 
-
 ## Data Sources
 
 | Datasets | Geographic level | Usage |
@@ -60,6 +61,7 @@ The datasets with geographic reference are listed below:
 
 >**Note:** NUTS: Year 2024, 1:1 Million, EPSG:3035 – ETRS89 / LAEA Europe  
 **Map Projection Grid:** EPSG:4326 (WGS 84)
+
 
 ## Geographic Hierarchy
 
@@ -81,6 +83,7 @@ Geographic levels used in this project are listed below:
 
 > **Note:** NUTS 1, 2 and 3 are statistical subdivisions defined by Eurostat.  
 > Municipality and Freguesia are local administrative levels.
+
 
 ## Final Freguesia Population Dataset
 
@@ -119,6 +122,7 @@ After performing Quality control the following result has been found:
 | Population NULL | 302 |
 
 Population coverage is incomplete because the population data source does not use the same Freguesia geographic configuration as the administrative boundaries. As a result, we could not directly match 302 current Freguesia records to a population value. We retained these records with NULL population values rather than assigning potentially incorrect values.
+
 
 ## Limitations 
 - Administrative boundaries and population data have different reference years.
