@@ -66,4 +66,17 @@ Portugal's geographic structure includes both territorial and local administrati
 
 <img width="386" height="397" alt="Picture1" src="https://github.com/user-attachments/assets/e0c33bc0-ef07-4a2b-8eb3-2087d8b2676f" />
 
+Geographic levels used in this project are listed below:
+
+| Level | Geography | Role |
+|---|---|---|
+| Country | Portugal | National level |
+| NUTS 1 | Territory of the Mainland and Autonomous Regions | Statistical classification |
+| NUTS 2 | Administrative Regions | Statistical and planning |
+| NUTS 3 | Inter-municipal Communities and Metropolitan Areas | Detailed regional statistics |
+| Municipality | Município | Local administrative level |
+| Freguesia | Freguesia | Local administrative subdivision |
+
+> **Note:** NUTS 1, 2 and 3 are statistical subdivisions defined by Eurostat.  
+> Municipality and Freguesia are local administrative levels.
 
