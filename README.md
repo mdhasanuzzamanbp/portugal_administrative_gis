@@ -69,6 +69,8 @@ Eurostat regional level NUTS datasets were obtained from official European geogr
 The datasets with geographic reference are listed below: 
 </div>
 
+Table 1. Geographic Data Sources and Reference Years
+
 | Datasets | Geographic level | Usage |
 |---|---|---|
 | [Eurostat GISCO NUTS 2024](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics) | NUTS 1–3 | Regional hierarchy |
@@ -87,7 +89,8 @@ Portugal's geographic structure includes both territorial and local administrati
 </div>
 <br>
 
-Geographic levels used in this project are listed below:
+Table 2. Geographic Hierarchy and Administrative Levels
+
 | Level | Geography | Role |
 |---|---|---|
 | Country | Portugal | National level |
@@ -110,7 +113,8 @@ Population data were joined to the freguesia administrative boundaries using geo
 </div>
 <br>
 
-The identifiers of the attribute table are listed below:
+Table 3. Freguesia Attribute Fields and Descriptions
+
 | Field | Description |
 |---|---|
 | `GEO_ID` | Freguesia geographic identifier |
@@ -127,7 +131,7 @@ The identifiers of the attribute table are listed below:
 
 ## QA/QC Results
 
-After performing Quality control, the following results have been found:
+Table 4. Quality Assurance and Quality Control (QA/QC) Results
 
 | Check | Result |
 |---|---:|
