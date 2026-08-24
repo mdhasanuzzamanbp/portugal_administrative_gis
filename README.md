@@ -16,7 +16,7 @@ The project integrates:
 This map visualizes Portugal's statistical geographic hierarchy from NUTS 1 to NUTS 3. It shows the spatial organization of the NUTS regions, including mainland Portugal, Madeira, and the Azores.
 
 <p align="center">
-<img width="auto" height="4000" alt="01_Portugal_NUTS_Hierarchy" src="https://github.com/user-attachments/assets/02a93b40-da9c-4424-b011-c47283f552b2" />
+<img width="auto" height="2000" alt="01_Portugal_NUTS_Hierarchy" src="https://github.com/user-attachments/assets/02a93b40-da9c-4424-b011-c47283f552b2" />
 </p>
 
 ### 2. Municipality, Freguesia & Population
