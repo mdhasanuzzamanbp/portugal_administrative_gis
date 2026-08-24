@@ -1,8 +1,9 @@
 # Portugal Administrative GIS & Freguesia Population Dataset
 
 ## Project Overview
+<p align="justify">
 The project visualizes official geographic boundaries in Portugal, including the Nomenclature of Territorial Units for Statistics (NUTS) and Official Administrative Charter of Portugal (Municipality and Freguesia; CAOP), and combines it with population data at the Freguesia level. The final outputs are prepared as GIS-ready datasets and professional cartographic products. 
-
+</div>
 The project integrates: 
 
 - NUTS 1, NUTS 2 and NUTS 3 statistical regions
@@ -45,13 +46,11 @@ Microsoft Word: Documentation
 Microsoft Excel: Data Dictionary
 
 
-
-Data Sources
+## Data Sources
+<p align="justify">
 Eurostat regional level NUTS datasets were obtained from official European geographic data sources GISCO 2024. On the other hand, local administrative datasets were obtained from CAOP 2025. However, Population data with reference year 2021 were integrated at the freguesia level boundaries. Therefore, the 2021 population is represented using 2025 Freguesia administrative boundaries
 The datasets with geographic reference are listed below: 
-
-
-## Data Sources
+</div>
 
 | Datasets | Geographic level | Usage |
 |---|---|---|
@@ -85,15 +84,16 @@ Geographic levels used in this project are listed below:
 > Municipality and Freguesia are local administrative levels.
 
 ## Final Freguesia Population Dataset
-
+<p align="justify">
 Population data were joined to the freguesia administrative boundaries using geographic identifiers. Population data containing multiple records associated with the same freguesia were aggregated with the sum function. Then, the relevant population values were joined to the freguesia boundary layer. The final population field represents the 2021 population associated with the corresponding freguesia.
+</div>
 
 <div align="center">
 <img width="131" height="222" alt="Picture2" src="https://github.com/user-attachments/assets/fb8f6023-4a97-44b2-b93b-68eb4b2e1a7d" />
 </div>
 <br>
 
-The identifiers of attribute table are listed below:
+The identifiers of the attribute table are listed below:
 | Field | Description |
 |---|---|
 | `GEO_ID` | Freguesia geographic identifier |
@@ -110,7 +110,7 @@ The identifiers of attribute table are listed below:
 
 ## QA/QC Results
 
-After performing Quality control the following result has been found:
+After performing Quality control, the following results have been found:
 
 | Check | Result |
 |---|---:|
@@ -121,8 +121,9 @@ After performing Quality control the following result has been found:
 | Geometry errors | 0 |
 | Population NULL | 302 |
 
+<p align="justify">
 Population coverage is incomplete because the population data source does not use the same Freguesia geographic configuration as the administrative boundaries. As a result, we could not directly match 302 current Freguesia records to a population value. We retained these records with NULL population values rather than assigning potentially incorrect values.
-
+</div>
 
 ## Limitations 
 - Administrative boundaries and population data have different reference years.
