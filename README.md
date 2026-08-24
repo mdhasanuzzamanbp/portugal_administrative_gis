@@ -68,7 +68,7 @@ Portugal's geographic structure includes both territorial and local administrati
 <div align="center">
 <img width="386" height="397" alt="Picture1" src="https://github.com/user-attachments/assets/e0c33bc0-ef07-4a2b-8eb3-2087d8b2676f" />
 </div>
-
+<br>
 Geographic levels used in this project are listed below:
 | Level | Geography | Role |
 |---|---|---|
@@ -88,6 +88,7 @@ Population data were joined to the freguesia administrative boundaries using geo
 <div align="center">
 <img width="131" height="222" alt="Picture2" src="https://github.com/user-attachments/assets/fb8f6023-4a97-44b2-b93b-68eb4b2e1a7d" />
 </div>
+<br>
 
 The identifiers of attribute table are listed below:
 | Field | Description |
