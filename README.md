@@ -49,65 +49,17 @@ The datasets with geographic reference are listed below:
 
 
 
+## Data Sources
 
-<table>
-  <thead>
-    <tr>
-      <th>Datasets</th>
-      <th>Geographic level</th>
-      <th>Usage</th>
-    </tr>
-  </thead>
+| Datasets | Geographic level | Usage |
+|---|---|---|
+| [Eurostat GISCO NUTS 2024](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics) ¹ | NUTS 1–3 | Regional hierarchy |
+| [CAOP 2025](https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop) ² | Municipality and Freguesia | Administrative boundaries |
+| [Population dataset – INE Census 2021](https://mapas.ine.pt/download/index2021LugaresFregs.html) ³ | Freguesia | Population attributes |
 
-  <tbody>
-    <tr>
-      <td>
-        <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics">
-          Eurostat GISCO NUTS 2024
-        </a> <sup>1</sup>
-      </td>
-      <td>NUTS 1–3</td>
-      <td>Regional hierarchy</td>
-    </tr>
-    
-    <tr>
-      <td>
-        <a href="https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop">
-          CAOP 2025
-        </a> <sup>2</sup>
-      </td>
-      <td>Municipality and Freguesia</td>
-      <td>Administrative boundaries</td>
-    </tr>
+**NUTS:** Year 2024, 1:1 Million, EPSG:3035 – ETRS89 / LAEA Europe  
+**Map Projection Grid:** EPSG:4326 (WGS 84)
 
-    <tr>
-      <td>
-        <a href="https://mapas.ine.pt/download/index2021LugaresFregs.html">
-          Population dataset - INE Census 2021
-        </a> <sup>3</sup>
-      </td>
-      <td>Freguesia</td>
-      <td>Population attributes</td>
-    </tr>
-
-    <tr>
-      <td colspan="3">
-        <strong>NUTS:</strong> Year 2024, 1:1 Million, EPSG:3035 – ETRS89 / LAEA Europe<br>
-        <strong>Map Projection Grid:</strong> EPSG:4326 (WGS 84)<br>
-        <sup>1</sup>
-        <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics">
-          https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics
-        </a><br>
-        <sup>2</sup>
-        <a href="https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop">
-          https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop
-        </a><br>
-        <sup>3</sup>
-        <a href="https://mapas.ine.pt/download/index2021LugaresFregs.html">
-          https://mapas.ine.pt/download/index2021LugaresFregs.html
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+¹ [Eurostat GISCO NUTS 2024](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics)  
+² [CAOP 2025](https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop)  
+³ [INE Census 2021](https://mapas.ine.pt/download/index2021LugaresFregs.html)
