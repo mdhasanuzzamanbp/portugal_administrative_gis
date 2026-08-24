@@ -1,7 +1,7 @@
 # Portugal Administrative GIS & Freguesia Population Dataset
 
 ## Project Overview
-The project visualize official geographic boundaries in Portugal both The Nomenclature of Territorial Units for Statistics (NUTS) and Official Administrative Charter of Portugal (Municipality and Freguesia; CAOP) and combined it with population data at the Freguesia level. The final outputs are prepared as GIS-ready datasets and professional cartographic products. 
+The project visualizes official geographic boundaries in Portugal, including the Nomenclature of Territorial Units for Statistics (NUTS) and Official Administrative Charter of Portugal (Municipality and Freguesia; CAOP), and combines it with population data at the Freguesia level. The final outputs are prepared as GIS-ready datasets and professional cartographic products. 
 
 The project integrates: 
 
@@ -44,7 +44,7 @@ Microsoft Excel: Data Dictionary
 
 
 Data Sources
-Eurostat regional level NUTS datasets were obtained from official European geographic data sources GISCO 2024. On the other hand, local administrative datasets were obtained from CAOP 2025. However, Population data with reference year 2021 were integrated at the freguesia level boundaries. Therefore, 2021 population represented using 2025 Freguesia administrative boundaries
+Eurostat regional level NUTS datasets were obtained from official European geographic data sources GISCO 2024. On the other hand, local administrative datasets were obtained from CAOP 2025. However, Population data with reference year 2021 were integrated at the freguesia level boundaries. Therefore, the 2021 population is represented using 2025 Freguesia administrative boundaries
 The datasets with geographic reference are listed below: 
 
 
@@ -66,6 +66,7 @@ Portugal's geographic structure includes both territorial and local administrati
 
 <img width="386" height="397" alt="Picture1" src="https://github.com/user-attachments/assets/e0c33bc0-ef07-4a2b-8eb3-2087d8b2676f" />
 
+
 Geographic levels used in this project are listed below:
 
 | Level | Geography | Role |
@@ -79,4 +80,30 @@ Geographic levels used in this project are listed below:
 
 > **Note:** NUTS 1, 2 and 3 are statistical subdivisions defined by Eurostat.  
 > Municipality and Freguesia are local administrative levels.
+
+## Final Freguesia Population Dataset
+
+Population data were joined to the freguesia administrative boundaries using geographic identifiers. Population data containing multiple records associated with the same freguesia were aggregated with the sum function. Then, the relevant population values were joined to the freguesia boundary layer. The final population field represents the 2021 population associated with the corresponding freguesia.
+
+<img width="131" height="222" alt="Picture2" src="https://github.com/user-attachments/assets/fb8f6023-4a97-44b2-b93b-68eb4b2e1a7d" />
+
+The identifiers of attribute table are listed below:
+
+## Data Dictionary
+
+| Field | Description |
+|---|---|
+| `GEO_ID` | Freguesia geographic identifier |
+| `FREGUESIA` | Freguesia name |
+| `MUNICIPIO` | Municipality |
+| `DISTRICT` | District |
+| `NUTS1` | NUTS 1 region |
+| `NUTS2` | NUTS 2 region |
+| `NUTS3` | NUTS 3 region |
+| `AREA_HA` | Area in hectares |
+| `POPULATION` | Total number of inhabitants |
+| `COUNTRY` | Country |
+| `SOURCE` | Boundary/source information |
+
+
 
