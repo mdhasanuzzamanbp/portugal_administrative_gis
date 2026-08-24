@@ -47,6 +47,9 @@ Data Sources
 Eurostat regional level NUTS datasets were obtained from official European geographic data sources GISCO 2024. On the other hand, local administrative datasets were obtained from CAOP 2025. However, Population data with reference year 2021 were integrated at the freguesia level boundaries. Therefore, 2021 population represented using 2025 Freguesia administrative boundaries
 The datasets with geographic reference are listed below: 
 
+
+
+
 <table>
   <thead>
     <tr>
@@ -66,7 +69,7 @@ The datasets with geographic reference are listed below:
       <td>NUTS 1–3</td>
       <td>Regional hierarchy</td>
     </tr>
-
+    
     <tr>
       <td>
         <a href="https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop">
@@ -107,3 +110,4 @@ The datasets with geographic reference are listed below:
     </tr>
   </tbody>
 </table>
+
