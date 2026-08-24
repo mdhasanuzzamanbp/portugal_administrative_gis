@@ -13,18 +13,18 @@ The project integrates:
 ## Project Maps
 
 ### 1. Portugal NUTS Hierarchy
+This map visualizes Portugal's statistical geographic hierarchy from NUTS 1 to NUTS 3. It shows the spatial organization of the NUTS regions, including mainland Portugal, Madeira, and the Azores.
 
 <p align="center">
 <img width="7204" height="6141" alt="01_Portugal_NUTS_Hierarchy" src="https://github.com/user-attachments/assets/5f6d1cf7-81cf-45e4-90dc-8605f8a26901" />
 </p>
 
 ### 2. Municipality, Freguesia & Population
+This map shows Portugal's local administrative geography, including municipality and Freguesia boundaries. Freguesia polygons are symbolized according to 2021 population, while municipality boundaries are displayed according to CAOP 2025.
 
 <p align="center">
 <img width="7086" height="3484" alt="02_Portugal_Municipality_Freguesia_Population" src="https://github.com/user-attachments/assets/f5e93c4e-48d8-400a-b974-1329c2d2dbec" />
 </p>
-
-
 
 
 ## Project Objectives
