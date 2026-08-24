@@ -24,7 +24,7 @@ This map visualizes Portugal's statistical geographic hierarchy from NUTS 1 to N
 This map shows Portugal's local administrative geography, including municipality and Freguesia boundaries. Freguesia polygons are symbolized according to 2021 population, while municipality boundaries are displayed according to CAOP 2025. [See Table 1](#table-1-geographic-data-sources-and-reference-years) 
 
 <p align="center">
-<img width="7086" height="3484" alt="02_Portugal_Municipality_Freguesia_Population" src="https://github.com/user-attachments/assets/d7a61a8b-07b0-405e-9819-cdd658478e77" />
+<img width="7086" height="3484" alt="02_Portugal_Municipality_Freguesia_Population" src="https://github.com/user-attachments/assets/1d08abe6-88d9-40eb-8715-c5ae86d3f59f" />
 </p>
 
 ## Project Objectives
