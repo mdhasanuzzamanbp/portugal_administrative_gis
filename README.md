@@ -30,7 +30,7 @@ This map shows Portugal's local administrative geography, including municipality
 ## Project Objectives
 
 1. Building a clear administrative and statistical geographic hierarchy for Portugal. 
-2. Preparing NUTS 1, NUTS 2 and NUTS 3 datasets. 
+2. Preparing NUTS 1, NUTS 2, and NUTS 3 datasets. 
 3. Processing local administrative CAOP boundaries. 
 4. Integrating Freguesia population data and boundaries. 
 5. Performing spatial and attribute-level QA/QC. 
@@ -48,7 +48,7 @@ This map shows Portugal's local administrative geography, including municipality
 6. Inspected geographic identifiers and attribute fields.
 7. Matched population records to Freguesia geographic identifiers
 8. Calculated and verified geographic attributes
-9. Aggregated population records at the Freguseia level
+9. Aggregated population records at the Freguesia level
 10. Joined population data to the Freguesia boundary
 11. Created population-based symbology. 
 12. Performed QA/QC validation. 
@@ -65,11 +65,11 @@ This map shows Portugal's local administrative geography, including municipality
 
 ## Data Sources
 <p align="justify">
-Eurostat regional level NUTS datasets were obtained from official European geographic data sources GISCO 2024. On the other hand, local administrative datasets were obtained from CAOP 2025. However, Population data with reference year 2021 were integrated at the freguesia level boundaries. Therefore, the 2021 population is represented using 2025 Freguesia administrative boundaries
+Eurostat regional-level NUTS datasets were obtained from official European geographic data sources GISCO 2024. On the other hand, local administrative datasets were obtained from CAOP 2025. However, Population data with reference year 2021 were integrated at the freguesia level boundaries. Therefore, the 2021 population is represented using 2025 Freguesia administrative boundaries
 The datasets with geographic reference are listed below: 
 </div>
 
-Table 1. Geographic Data Sources and Reference Years
+**Table 1. Geographic Data Sources and Reference Years**
 
 | Datasets | Geographic level | Usage |
 |---|---|---|
@@ -89,7 +89,7 @@ Portugal's geographic structure includes both territorial and local administrati
 </div>
 <br>
 
-Table 2. Geographic Hierarchy and Administrative Levels
+**Table 2. Geographic Hierarchy and Administrative Levels**
 
 | Level | Geography | Role |
 |---|---|---|
@@ -113,7 +113,7 @@ Population data were joined to the freguesia administrative boundaries using geo
 </div>
 <br>
 
-Table 3. Freguesia Attribute Fields and Descriptions
+**Table 3. Freguesia Attribute Fields and Descriptions**
 
 | Field | Description |
 |---|---|
@@ -131,7 +131,7 @@ Table 3. Freguesia Attribute Fields and Descriptions
 
 ## QA/QC Results
 
-Table 4. Quality Assurance and Quality Control (QA/QC) Results
+**Table 4. Quality Assurance and Quality Control (QA/QC) Results**
 
 | Check | Result |
 |---|---:|
