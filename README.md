@@ -9,6 +9,7 @@ The project integrates:
 - Local administrative level boundaries
 - Freguesia-level population data
 <br>
+
 ## Project Objectives
 
 1. Building a clear administrative and statistical geographic hierarchy for Portugal. 
