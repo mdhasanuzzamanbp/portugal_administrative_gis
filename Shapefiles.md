@@ -1,6 +1,7 @@
 # Portugal Administrative GIS Dataset
 
 Port
+[Portugal Freguesia Population Dataset](https://github.com/mdhasanuzzamanbp/portugal_administrative_gis/releases/tag/v2.0)
 
 ## Included datasets
 
@@ -20,11 +21,9 @@ The Shapefile package contains:
 - .dbf
 - .prj
 
-[Portugal Freguesia Population Dataset](https://github.com/mdhasanuzzamanbp/portugal_administrative_gis/releases/tag/v2.0)
 
-## Included datasets
 
-Portugal Freguesia Population Dataset
+## 2. Portugal Freguesia Population Dataset
 - Population reference year: 2021
 - Geographic level: Freguesia
 - Coordinate reference system: EPSG:3035
