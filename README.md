@@ -27,7 +27,6 @@ This map shows Portugal's local administrative geography, including municipality
 <img width="7086" height="3484" alt="02_Portugal_Municipality_Freguesia_Population" src="https://github.com/user-attachments/assets/d7a61a8b-07b0-405e-9819-cdd658478e77" />
 </p>
 
-
 ## Project Objectives
 
 1. Building a clear administrative and statistical geographic hierarchy for Portugal. 
@@ -88,7 +87,7 @@ Portugal's geographic structure includes both territorial and local administrati
 <div align="center">
 <img width="386" height="397" alt="Picture1" src="https://github.com/user-attachments/assets/e0c33bc0-ef07-4a2b-8eb3-2087d8b2676f" />
 </div>
-<br>
+
 
 ### Table 2. Geographic Hierarchy and Administrative Levels
 
@@ -112,7 +111,7 @@ Population data were joined to the freguesia administrative boundaries using geo
 <div align="center">
 <img width="131" height="222" alt="Picture2" src="https://github.com/user-attachments/assets/fb8f6023-4a97-44b2-b93b-68eb4b2e1a7d" />
 </div>
-<br>
+
 
 ### Table 3. Freguesia Attribute Fields and Descriptions
 
