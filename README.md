@@ -70,7 +70,7 @@ Eurostat regional-level NUTS datasets were obtained from official European geogr
 The datasets with geographic reference are listed below: 
 </div>
 
-**Table 1. Geographic Data Sources and Reference Years**
+### Table 1. Geographic Data Sources and Reference Years
 
 | Datasets | Geographic level | Usage |
 |---|---|---|
@@ -114,7 +114,7 @@ Population data were joined to the freguesia administrative boundaries using geo
 </div>
 <br>
 
-**Table 3. Freguesia Attribute Fields and Descriptions**
+### Table 3. Freguesia Attribute Fields and Descriptions
 
 | Field | Description |
 |---|---|
@@ -132,7 +132,7 @@ Population data were joined to the freguesia administrative boundaries using geo
 
 ## QA/QC Results
 
-**Table 4. Quality Assurance and Quality Control (QA/QC) Results**
+### Table 4. Quality Assurance and Quality Control (QA/QC) Results
 
 | Check | Result |
 |---|---:|
