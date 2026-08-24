@@ -39,6 +39,7 @@ The project integrates:
 13. Exported final deliverable GIS datasets
 14. Produced cartographic layouts and documentation
 
+![Full GIS Workflow](https://github.com/mdhasanuzzamanbp/portugal_administrative_gis/tree/main/screenshots) 
 
 ## Tools
 QGIS: Select features, Merge vector layers, Aggregate, Join, Symbology, Attribute table, Vector geometry, Check validity, QA/QC, Layout
