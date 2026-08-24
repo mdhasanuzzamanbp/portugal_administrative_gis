@@ -1,8 +1,8 @@
 # Portugal Administrative GIS Dataset
 
-[Portugal Administrative Level Dataset](https://github.com/mdhasanuzzamanbp/portugal_administrative_gis/releases/edit/v1.0)
+[1. Portugal Administrative Level Dataset](https://github.com/mdhasanuzzamanbp/portugal_administrative_gis/releases/edit/v1.0)
 
-[Portugal Freguesia Population Dataset](https://github.com/mdhasanuzzamanbp/portugal_administrative_gis/releases/tag/v2.0)
+[2. Portugal Freguesia Population Dataset](https://github.com/mdhasanuzzamanbp/portugal_administrative_gis/releases/tag/v2.0)
 
 ## Portugal Administrative Level Dataset
 
