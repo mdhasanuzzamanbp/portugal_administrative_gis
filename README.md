@@ -42,9 +42,9 @@ The project integrates:
 [Full GIS Workflow](https://github.com/mdhasanuzzamanbp/portugal_administrative_gis/tree/main/screenshots) 
 
 ## Tools
-QGIS: Select features, Merge vector layers, Aggregate, Join, Symbology, Attribute table, Vector geometry, Check validity, QA/QC, Layout
-Microsoft Word: Documentation
-Microsoft Excel: Data Dictionary
+**QGIS:** Select features, Merge vector layers, Aggregate, Join, Symbology, Attribute table, Vector geometry, Check validity, QA/QC, Layout
+**Microsoft Word:** Documentation
+**Microsoft Excel:** Data Dictionary
 
 
 ## Data Sources
