@@ -104,4 +104,21 @@ The identifiers of attribute table are listed below:
 | `SOURCE` | Boundary/source information |
 
 
+## QA/QC Results
 
+After performing Quality control the following result has been found:
+
+| Check | Result |
+|---|---:|
+| Total Freguesia features | 3,259 |
+| Missing `GEO_ID` | 0 |
+| Duplicate `GEO_ID` | 0 |
+| Invalid geometries | 0 |
+| Geometry errors | 0 |
+| Population NULL | 302 |
+
+Population coverage is incomplete because the population data source does not use the same Freguesia geographic configuration as the administrative boundaries. As a result, we could not directly match 302 current Freguesia records to a population value. We retained these records with NULL population values rather than assigning potentially incorrect values.
+
+## Limitations 
+- Administrative boundaries and population data have different reference years.
+- Some freguesias do not have corresponding population records in the population datasets. 
