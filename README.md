@@ -52,7 +52,48 @@ The datasets with geographic reference are listed below:
 
 
 ## Data Sources
-<div align="center">
+
+<table align="center">
+  <tr>
+    <th>Datasets</th>
+    <th>Geographic level</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics">
+        Eurostat GISCO NUTS 2024
+      </a>
+    </td>
+    <td align="center">NUTS 1–3</td>
+    <td align="center">Regional hierarchy</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop">
+        CAOP 2025
+      </a>
+    </td>
+    <td align="center">Municipality and Freguesia</td>
+    <td align="center">Administrative boundaries</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://mapas.ine.pt/download/index2021LugaresFregs.html">
+        Population dataset – INE Census 2021
+      </a>
+    </td>
+    <td align="center">Freguesia</td>
+    <td align="center">Population attributes</td>
+  </tr>
+</table>
+
+<p align="center">
+  <strong>NUTS:</strong> Year 2024, 1:1 Million, EPSG:3035 – ETRS89 / LAEA Europe<br>
+  <strong>Map Projection Grid:</strong> EPSG:4326 (WGS 84)
+</p>
+
+
 | Datasets | Geographic level | Usage |
 |---|---|---|
 | [Eurostat GISCO NUTS 2024](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics) | NUTS 1–3 | Regional hierarchy |
@@ -61,7 +102,6 @@ The datasets with geographic reference are listed below:
 
 >**Note:** NUTS: Year 2024, 1:1 Million, EPSG:3035 – ETRS89 / LAEA Europe  
 **Map Projection Grid:** EPSG:4326 (WGS 84)
-</div>
 
 ## Geographic Hierarchy
 
