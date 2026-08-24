@@ -43,7 +43,7 @@ The project integrates:
 
 ## Tools
 **QGIS:** Select features, Merge vector layers, Aggregate, Join, Symbology, Attribute table, Vector geometry, Check validity, QA/QC, Layout
-**Microsoft Word:** Documentation
+**Microsoft Word:** Documentation<br>
 **Microsoft Excel:** Data Dictionary
 
 
