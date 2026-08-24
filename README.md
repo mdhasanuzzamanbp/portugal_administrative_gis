@@ -1,6 +1,6 @@
 # Portugal Administrative GIS & Freguesia Population Dataset
 
-## Project Overview
+## Executive Summary
 <p align="justify">
 The project visualizes official geographic boundaries in Portugal, including the Nomenclature of Territorial Units for Statistics (NUTS) and Official Administrative Charter of Portugal (Municipality and Freguesia; CAOP), and combines it with population data at the Freguesia level. The final outputs are prepared as GIS-ready datasets and professional cartographic products. 
 </div>
