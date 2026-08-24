@@ -53,47 +53,6 @@ The datasets with geographic reference are listed below:
 
 ## Data Sources
 
-<table align="center">
-  <tr>
-    <th>Datasets</th>
-    <th>Geographic level</th>
-    <th>Usage</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics">
-        Eurostat GISCO NUTS 2024
-      </a>
-    </td>
-    <td align="center">NUTS 1–3</td>
-    <td align="center">Regional hierarchy</td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop">
-        CAOP 2025
-      </a>
-    </td>
-    <td align="center">Municipality and Freguesia</td>
-    <td align="center">Administrative boundaries</td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://mapas.ine.pt/download/index2021LugaresFregs.html">
-        Population dataset – INE Census 2021
-      </a>
-    </td>
-    <td align="center">Freguesia</td>
-    <td align="center">Population attributes</td>
-  </tr>
-</table>
-
-<p align="center">
-  <strong>NUTS:</strong> Year 2024, 1:1 Million, EPSG:3035 – ETRS89 / LAEA Europe<br>
-  <strong>Map Projection Grid:</strong> EPSG:4326 (WGS 84)
-</p>
-
-
 | Datasets | Geographic level | Usage |
 |---|---|---|
 | [Eurostat GISCO NUTS 2024](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics) | NUTS 1–3 | Regional hierarchy |
@@ -111,7 +70,6 @@ Portugal's geographic structure includes both territorial and local administrati
 </div>
 
 Geographic levels used in this project are listed below:
-<div align="center">
 | Level | Geography | Role |
 |---|---|---|
 | Country | Portugal | National level |
@@ -123,16 +81,15 @@ Geographic levels used in this project are listed below:
 
 > **Note:** NUTS 1, 2 and 3 are statistical subdivisions defined by Eurostat.  
 > Municipality and Freguesia are local administrative levels.
-</div>
 
 ## Final Freguesia Population Dataset
 
 Population data were joined to the freguesia administrative boundaries using geographic identifiers. Population data containing multiple records associated with the same freguesia were aggregated with the sum function. Then, the relevant population values were joined to the freguesia boundary layer. The final population field represents the 2021 population associated with the corresponding freguesia.
 <div align="center">
 <img width="131" height="222" alt="Picture2" src="https://github.com/user-attachments/assets/fb8f6023-4a97-44b2-b93b-68eb4b2e1a7d" />
+</div>
 
 The identifiers of attribute table are listed below:
-<div align="center">
 | Field | Description |
 |---|---|
 | `GEO_ID` | Freguesia geographic identifier |
@@ -146,12 +103,11 @@ The identifiers of attribute table are listed below:
 | `POPULATION` | Total number of inhabitants |
 | `COUNTRY` | Country |
 | `SOURCE` | Boundary/source information |
-</div>
 
 ## QA/QC Results
 
 After performing Quality control the following result has been found:
-<div align="center">
+
 | Check | Result |
 |---|---:|
 | Total Freguesia features | 3,259 |
@@ -160,7 +116,7 @@ After performing Quality control the following result has been found:
 | Invalid geometries | 0 |
 | Geometry errors | 0 |
 | Population NULL | 302 |
-</div>
+
 Population coverage is incomplete because the population data source does not use the same Freguesia geographic configuration as the administrative boundaries. As a result, we could not directly match 302 current Freguesia records to a population value. We retained these records with NULL population values rather than assigning potentially incorrect values.
 
 
