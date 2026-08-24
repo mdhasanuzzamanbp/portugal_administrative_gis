@@ -89,8 +89,6 @@ Population data were joined to the freguesia administrative boundaries using geo
 
 The identifiers of attribute table are listed below:
 
-## Data Dictionary
-
 | Field | Description |
 |---|---|
 | `GEO_ID` | Freguesia geographic identifier |
