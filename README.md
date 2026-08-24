@@ -57,7 +57,7 @@ The datasets with geographic reference are listed below:
 | [CAOP 2025](https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop) | Municipality and Freguesia | Administrative boundaries |
 | [Population dataset – INE Census 2021](https://mapas.ine.pt/download/index2021LugaresFregs.html) | Freguesia | Population attributes |
 
-**NUTS:** Year 2024, 1:1 Million, EPSG:3035 – ETRS89 / LAEA Europe  
+>**Note:** NUTS: Year 2024, 1:1 Million, EPSG:3035 – ETRS89 / LAEA Europe  
 **Map Projection Grid:** EPSG:4326 (WGS 84)
 
 ## Geographic Hierarchy
