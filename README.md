@@ -65,10 +65,12 @@ The datasets with geographic reference are listed below:
 ## Geographic Hierarchy
 
 Portugal's geographic structure includes both territorial and local administrative units. The NUTS classification is used for statistical and regional levels, while municipalities and Freguesias represent local administrative level geography.
+
 <div align="center">
 <img width="386" height="397" alt="Picture1" src="https://github.com/user-attachments/assets/e0c33bc0-ef07-4a2b-8eb3-2087d8b2676f" />
 </div>
 <br>
+
 Geographic levels used in this project are listed below:
 | Level | Geography | Role |
 |---|---|---|
@@ -85,6 +87,7 @@ Geographic levels used in this project are listed below:
 ## Final Freguesia Population Dataset
 
 Population data were joined to the freguesia administrative boundaries using geographic identifiers. Population data containing multiple records associated with the same freguesia were aggregated with the sum function. Then, the relevant population values were joined to the freguesia boundary layer. The final population field represents the 2021 population associated with the corresponding freguesia.
+
 <div align="center">
 <img width="131" height="222" alt="Picture2" src="https://github.com/user-attachments/assets/fb8f6023-4a97-44b2-b93b-68eb4b2e1a7d" />
 </div>
