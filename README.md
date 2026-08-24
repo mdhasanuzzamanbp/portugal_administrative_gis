@@ -53,13 +53,17 @@ The datasets with geographic reference are listed below:
 
 | Datasets | Geographic level | Usage |
 |---|---|---|
-| [Eurostat GISCO NUTS 2024](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics) ¹ | NUTS 1–3 | Regional hierarchy |
-| [CAOP 2025](https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop) ² | Municipality and Freguesia | Administrative boundaries |
-| [Population dataset – INE Census 2021](https://mapas.ine.pt/download/index2021LugaresFregs.html) ³ | Freguesia | Population attributes |
+| [Eurostat GISCO NUTS 2024](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics) | NUTS 1–3 | Regional hierarchy |
+| [CAOP 2025](https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop) | Municipality and Freguesia | Administrative boundaries |
+| [Population dataset – INE Census 2021](https://mapas.ine.pt/download/index2021LugaresFregs.html) | Freguesia | Population attributes |
 
 **NUTS:** Year 2024, 1:1 Million, EPSG:3035 – ETRS89 / LAEA Europe  
 **Map Projection Grid:** EPSG:4326 (WGS 84)
 
-¹ [Eurostat GISCO NUTS 2024](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics)  
-² [CAOP 2025](https://www.dgterritorio.gov.pt/atividades/cartografia/cartografia-tematica/caop)  
-³ [INE Census 2021](https://mapas.ine.pt/download/index2021LugaresFregs.html)
+## Geographic Hierarchy
+
+Portugal's geographic structure includes both territorial and local administrative units. The NUTS classification is used for statistical and regional levels, while municipalities and Freguesias represent local administrative level geography.
+
+<img width="386" height="397" alt="Picture1" src="https://github.com/user-attachments/assets/e0c33bc0-ef07-4a2b-8eb3-2087d8b2676f" />
+
+
