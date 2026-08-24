@@ -65,8 +65,7 @@ This map shows Portugal's local administrative geography, including municipality
 
 ## Data Sources
 <p align="justify">
-Eurostat regional-level NUTS datasets were obtained from official European geographic data sources GISCO 2024. On the other hand, local administrative datasets were obtained from CAOP 2025. However, Population data with reference year 2021 were integrated at the freguesia level boundaries. Therefore, the 2021 population is represented using 2025 Freguesia administrative boundaries
-The datasets with geographic reference are listed below: 
+Eurostat regional-level NUTS datasets were obtained from official European geographic data sources GISCO 2024. On the other hand, local administrative datasets were obtained from CAOP 2025. However, Population data with reference year 2021 were integrated at the freguesia level boundaries. Therefore, the 2021 population is represented using 2025 Freguesia administrative boundaries.
 </div>
 
 ### Table 1. Geographic Data Sources and Reference Years
