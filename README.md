@@ -8,7 +8,7 @@ The project integrates:
 - NUTS 1, NUTS 2 and NUTS 3 statistical regions
 - Local administrative level boundaries
 - Freguesia-level population data
-
+<br>
 ## Project Objectives
 
 1. Building a clear administrative and statistical geographic hierarchy for Portugal. 
