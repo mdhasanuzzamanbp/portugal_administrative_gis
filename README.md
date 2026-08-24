@@ -10,6 +10,22 @@ The project integrates:
 - Local administrative level boundaries
 - Freguesia-level population data
 
+## Project Maps
+
+### 1. Portugal NUTS Hierarchy
+
+<p align="center">
+<img width="7204" height="6141" alt="01_Portugal_NUTS_Hierarchy" src="https://github.com/user-attachments/assets/5f6d1cf7-81cf-45e4-90dc-8605f8a26901" />
+</p>
+
+### 2. Municipality, Freguesia & Population
+
+<p align="center">
+<img width="7086" height="3484" alt="02_Portugal_Municipality_Freguesia_Population" src="https://github.com/user-attachments/assets/f5e93c4e-48d8-400a-b974-1329c2d2dbec" />
+</p>
+
+
+
 
 ## Project Objectives
 
@@ -32,7 +48,7 @@ The project integrates:
 6. Inspected geographic identifiers and attribute fields.
 7. Matched population records to Freguesia geographic identifiers
 8. Calculated and verified geographic attributes
-9. Aggregated the population data in Freguseia level
+9. Aggregated population records at the Freguseia level
 10. Joined population data to the Freguesia boundary
 11. Created population-based symbology. 
 12. Performed QA/QC validation. 
