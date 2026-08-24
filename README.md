@@ -142,7 +142,7 @@ Population data were joined to the freguesia administrative boundaries using geo
 | Population NULL | 302 |
 
 <p align="justify">
-Population coverage is incomplete because the population data source does not use the same Freguesia geographic configuration as the administrative boundaries. As a result, we could not directly match 302 current Freguesia records to a population value. We retained these records with NULL population values rather than assigning potentially incorrect values.
+Population coverage is incomplete because the 2021 population dataset and the 2025 CAOP administrative boundaries use different Freguesia configurations. Some Freguesias in the population dataset were merged or represented differently from the 2025 administrative units. Consequently, 302 current Freguesia records could not be directly matched to population values. These records were retained with NULL population values rather than assigning potentially inaccurate population values.
 </div>
 
 ## Limitations 
